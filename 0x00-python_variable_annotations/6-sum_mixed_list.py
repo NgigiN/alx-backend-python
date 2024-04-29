@@ -1,4 +1,4 @@
-#!usr/bin/env python3
+#!/usr/bin/env python3
 """
   This module shakes it up and takes complex types: a mixed list
 """
