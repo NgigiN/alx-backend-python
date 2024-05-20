@@ -7,7 +7,7 @@ import asyncio
 from typing import Union
 
 
-async def wait_random(max_delay: Union[int, float] = 10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     """This is an asynchronous coroutine that takes an integer
     argument and waits for a random delay between 0 and max_delay seconds
     and eventually returns it"""
